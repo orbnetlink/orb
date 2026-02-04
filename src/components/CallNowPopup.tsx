@@ -10,7 +10,7 @@ export const CallNowPopup = () => {
     // Show popup after a short delay when component mounts
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 1500);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
